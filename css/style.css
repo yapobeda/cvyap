@@ -1,0 +1,260 @@
+
+@media screen and (min-width: 640px){
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        list-style: none;
+    }
+    body{
+        background-color: rgb(38, 38, 38);
+        font-size: 14px;
+        line-height: 22px;
+        color: #fff;
+    } 
+    .mon_cv{
+        margin:  0 auto;
+        width: 800px;
+        height: auto;
+        display: flex;
+    }
+    /* CV COTE GAUCHE */
+    .moncvleft{
+        background-image: linear-gradient(180deg,#3b54a4,#37a2c8);
+        width: 280px;
+    }
+    img{
+        margin-top: 12px;
+        width:100px;
+        border-radius: 100%;
+        margin-left: 75px;
+    }
+    .info_perso{
+        margin-left: 25px;
+        margin-bottom: 32px;
+    }
+    .titre{
+        margin-bottom: 10px;
+    }
+    .tc{
+        margin-top: 16px;
+    }
+    /*  CV COTE DROIT */
+    .moncvright{
+        background-color: white;
+        width: 520px;
+        color: black;
+        border-top-left-radius: 80px;
+        border-bottom-left-radius: 80px;
+    }
+    .info_sup{
+        margin-left: 25px;
+        margin-bottom: 32px;
+    }
+    h1{
+        text-align: justify;
+        padding-top: 45px;
+        padding-left: 150px;
+     }
+     .prenom{
+         font-size: smaller;
+         color: black;
+     }
+     .nom{
+         color: #39a1c7;
+     }
+    .fonct{
+        color: grey;
+        font-size: 15px;
+    }
+    .title{
+        color: #39a1c7;
+        margin-bottom: 10px;
+    }
+    .ta{
+        margin-top: 64px;
+    }
+    .ast{
+       color: black;
+    }
+    
+    i{
+        margin-right: 6px;
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        list-style: none;
+    }
+    body{
+        background-color: rgb(38, 38, 38);
+        font-size: 14px;
+        line-height: 22px;
+        color: #fff;
+    } 
+    .mon_cv{
+        padding-left: 180px;
+        width: 600px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    /* CV COTE GAUCHE */
+    .moncvleft{
+        background-image: linear-gradient(180deg,orchid,purple);
+        width: 300px;
+    }img{
+        margin-top: 12px;
+        width:100px;
+        border-radius: 100%;
+        margin-left: 75px;
+    }
+    .info_perso{
+        margin-left: 25px;
+        margin-bottom: 32px;
+    }
+    .titre{
+        margin-bottom: 10px;
+    }
+    .tc{
+        margin-top: 16px;
+    }
+    /*  CV COTE DROIT */
+    .moncvright{
+        background-color: white;
+        width: 300px;
+        color: black;
+    }
+    .info_sup{
+        margin-left: 25px;
+        margin-bottom: 32px;
+    }
+    h1{
+        text-align: justify;
+        padding-top: 45px;
+        padding-left: 75px;
+     }
+     .prenom{
+         font-size: smaller;
+         color: black;
+     }
+     .nom{
+         color: orchid;
+     }
+    .fonct{
+        color: grey;
+        font-size: 15px;
+    }
+    .title{
+        color: orchid;
+        text-align: center;
+    }
+    .ta{
+        margin-top: 64px;
+    }
+    .ast{
+       color: black;
+       display: none;
+    }
+    
+    i{
+        margin-right: 6px;
+        padding: 10px;
+    }
+}
+
+@media screen  and (max-width: 640px) and (min-width: 600px){
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+body{
+    background-color: rgb(38, 38, 38);
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+} 
+.mon_cv{
+    padding-left: 180px;
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+/* CV COTE GAUCHE */
+.moncvleft{
+    background-image: linear-gradient(180deg,orange,orangered);
+    width: 300px;
+}img{
+    margin-top: 12px;
+    width:100px;
+    border-radius: 100%;
+    margin-left: 75px;
+}
+.info_perso{
+    margin-left: 25px;
+    margin-bottom: 32px;
+}
+.titre{
+    margin-bottom: 10px;
+}
+.tc{
+    margin-top: 16px;
+}
+/*  CV COTE DROIT */
+.moncvright{
+    background-color: white;
+    width: 300px;
+    color: black;
+}
+.info_sup{
+    margin-left: 25px;
+    margin-bottom: 32px;
+}
+h1{
+    text-align: justify;
+    padding-top: 45px;
+    padding-left: 75px;
+ }
+ .prenom{
+     font-size: smaller;
+     color: black;
+ }
+ .nom{
+     color: orange;
+ }
+.fonct{
+    color: grey;
+    font-size: 15px;
+}
+.title{
+    color: orange;
+    text-align: center;
+}
+.ta{
+    margin-top: 64px;
+}
+.ast{
+   color: black;
+   display: none;
+}
+
+i{
+    margin-right: 6px;
+    padding: 10px;
+}
+}
